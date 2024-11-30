@@ -1,0 +1,20 @@
+{
+  "name": "alzein-node",
+  "version": "1.0.0",
+  "main": "app.js",
+  "homepage": "https://sharifzein.github.io/alzein-node",
+  "scripts": {
+    "build": "npm run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "Sharif ABOW",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
+}
